@@ -1,5 +1,5 @@
-![Build Status](https://github.com/rickfast/consul-client/actions/workflows/maven.yml/badge.svg)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.orbitz.consul/consul-client/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.orbitz.consul/consul-client)
+![Build Status](https://github.com/Zextras/consul-client/actions/workflows/maven.yml/badge.svg)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.zextras.consul/consul-client/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.orbitz.consul/consul-client)
 
 Consul Client for Java
 ======================
@@ -24,7 +24,7 @@ In 0.11.X and 0.12.x, the Consul JAR is a shaded JAR, with most dependencies inc
 
 ```groovy
 dependencies {
-    implementation 'com.orbitz.consul:consul-client:1.5.3'
+    implementation 'com.zextras.consul:consul-client:1.5.3'
 }
 ```
 
@@ -32,7 +32,7 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.orbitz.consul:consul-client:1.5.3")
+    implementation("com.zextras.consul:consul-client:1.5.3")
 }
 ```
 
@@ -41,7 +41,7 @@ dependencies {
 ```xml
 <dependencies>
     <dependency>
-        <groupId>com.orbitz.consul</groupId>
+        <groupId>com.zextras.consul</groupId>
         <artifactId>consul-client</artifactId>
         <version>1.5.3</version>
     </dependency>

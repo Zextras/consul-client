@@ -1,17 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.orbitz.consul</groupId>
+    <groupId>com.zextras</groupId>
     <artifactId>consul-client</artifactId>
     <packaging>jar</packaging>
-    <version>1.5.3</version>
+    <version>1.5.4</version>
     <name>consul-client</name>
     <url>http://maven.apache.org</url>
     <description>Consul Client for Java</description>
     <scm>
-        <url>scm:git@github.com:OrbitzWorldwide/consul-client.git</url>
-        <connection>scm:git@github.com:OrbitzWorldwide/consul-client.git</connection>
-        <developerConnection>scm:git@github.com:OrbitzWorldwide/consul-client.git</developerConnection>
+        <url>scm:git@github.com:Zextras/consul-client.git</url>
+        <connection>scm:git@github.com:Zextras/consul-client.git</connection>
+        <developerConnection>scm:git@github.com:Zextras/consul-client.git</developerConnection>
     </scm>
     <licenses>
         <license>
@@ -22,9 +22,8 @@
     </licenses>
     <developers>
         <developer>
-            <id>rickfast</id>
-            <name>Rick Fast</name>
-            <email>rick.t.fast@gmail.com</email>
+            <id>zextras</id>
+            <name>Zextras</name>
         </developer>
     </developers>
     <properties>
@@ -197,6 +196,11 @@
                 <plugins>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-site-plugin</artifactId>
+                        <version>3.7.1</version>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
                         <version>1.6</version>
                         <executions>
@@ -295,31 +299,31 @@
                             <relocations>
                                 <relocation>
                                     <pattern>retrofit2</pattern>
-                                    <shadedPattern>com.orbitz.retrofit</shadedPattern>
+                                    <shadedPattern>com.zextras.retrofit</shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>com.squareup</pattern>
-                                    <shadedPattern>com.orbitz.squareup</shadedPattern>
+                                    <shadedPattern>com.zextras.squareup</shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>okio</pattern>
-                                    <shadedPattern>com.orbitz.okio</shadedPattern>
+                                    <shadedPattern>com.zextras.okio</shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>okhttp3</pattern>
-                                    <shadedPattern>com.orbitz.okhttp3</shadedPattern>
+                                    <shadedPattern>com.zextras.okhttp3</shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>org.apache</pattern>
-                                    <shadedPattern>com.orbitz.apache</shadedPattern>
+                                    <shadedPattern>com.zextras.apache</shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>com.fasterxml</pattern>
-                                    <shadedPattern>com.orbitz.fasterxml</shadedPattern>
+                                    <shadedPattern>com.zextras.fasterxml</shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>com.google</pattern>
-                                    <shadedPattern>com.orbitz.google</shadedPattern>
+                                    <shadedPattern>com.zextras.google</shadedPattern>
                                 </relocation>
                             </relocations>
                         </configuration>
