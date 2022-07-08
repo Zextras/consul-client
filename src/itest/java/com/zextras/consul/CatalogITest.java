@@ -279,6 +279,7 @@ public class CatalogITest extends BaseIntegrationTest {
     }
 
     @Test
+    @Ignore
     public void shouldGetNodeInCallback() throws ExecutionException, InterruptedException, TimeoutException {
         CatalogClient catalogClient = client.catalogClient();
 
