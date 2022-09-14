@@ -1,0 +1,11 @@
+{
+  "name": "consul-client",
+  "description": "consul client package",
+  "build_dir": "/tmp",
+  "output": "artifacts",
+  "projects": [
+    {
+      "name": "consul-client"
+    }
+  ]
+}

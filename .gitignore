@@ -17,3 +17,6 @@ src/gradle
 .classpath
 .project
 .settings
+*.deb
+*.rpm
+artifacts/
