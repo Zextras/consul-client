@@ -374,7 +374,7 @@
 
 - New release including \#153 [\#154](https://github.com/rickfast/consul-client/issues/154)
 - ConsulCache say that "Error getting response from consul. will retry in 10 SECONDS" but retry is within the same second 09:16:34 [\#151](https://github.com/rickfast/consul-client/issues/151)
-- Unable to extract the trust manager on com.orbitz.okhttp3.internal.Platform@406554a0, sslSocketFactory is class sun.security.ssl.SSLSocketFactoryImpl [\#150](https://github.com/rickfast/consul-client/issues/150)
+- Unable to extract the trust manager on com.zextras.okhttp3.internal.Platform@406554a0, sslSocketFactory is class sun.security.ssl.SSLSocketFactoryImpl [\#150](https://github.com/rickfast/consul-client/issues/150)
 - How can i do health check with a specify serviceId ? Not a service name [\#146](https://github.com/rickfast/consul-client/issues/146)
 
 **Merged pull requests:**
@@ -414,7 +414,7 @@
 **Closed issues:**
 
 - Support Timeout for Checks [\#140](https://github.com/rickfast/consul-client/issues/140)
-- java.lang.IllegalStateException: Unable to extract the trust manager on com.orbitz.okhttp3.internal.Platform, sslSocketFactory is class sun.security.ssl.SSLSocketFactoryImpl [\#138](https://github.com/rickfast/consul-client/issues/138)
+- java.lang.IllegalStateException: Unable to extract the trust manager on com.zextras.okhttp3.internal.Platform, sslSocketFactory is class sun.security.ssl.SSLSocketFactoryImpl [\#138](https://github.com/rickfast/consul-client/issues/138)
 - ConsulCache throws java.net.SocketTimeoutException: timeout  [\#135](https://github.com/rickfast/consul-client/issues/135)
 
 **Merged pull requests:**
@@ -530,7 +530,7 @@
 
 - KVClient: PutOptions.getCas should be long, not int [\#107](https://github.com/rickfast/consul-client/issues/107)
 - Support to specify a service-specific IP address [\#106](https://github.com/rickfast/consul-client/issues/106)
-- com.orbitz.consul.model.kv.Value -  This class does not define a public default constructor, or the constructor raised an exception [\#76](https://github.com/rickfast/consul-client/issues/76)
+- com.zextras.consul.model.kv.Value -  This class does not define a public default constructor, or the constructor raised an exception [\#76](https://github.com/rickfast/consul-client/issues/76)
 
 **Merged pull requests:**
 
@@ -589,7 +589,7 @@
 **Closed issues:**
 
 - Spring boot application throws Exception - FYI [\#83](https://github.com/rickfast/consul-client/issues/83)
-- com.orbitz.consul.option.QueryOptionsBuilder missing [\#79](https://github.com/rickfast/consul-client/issues/79)
+- com.zextras.consul.option.QueryOptionsBuilder missing [\#79](https://github.com/rickfast/consul-client/issues/79)
 - Inconsistency between expected jackson deserialized collections classes and immutable collections in generated classes. [\#78](https://github.com/rickfast/consul-client/issues/78)
 - Incorrect key in kvCache map [\#75](https://github.com/rickfast/consul-client/issues/75)
 - SSL/TLS support [\#73](https://github.com/rickfast/consul-client/issues/73)

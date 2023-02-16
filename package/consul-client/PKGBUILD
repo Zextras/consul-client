@@ -1,0 +1,27 @@
+targets=(
+  "rocky"
+  "ubuntu"
+)
+pkgname="carbonio-consul-client"
+pkgver="1.5.4"
+pkgrel="1"
+pkgdesc="Java Client for Consul HTTP API"
+pkgdesclong=(
+  "Java Client for Consul HTTP API"
+)
+maintainer="Zextras <packages@zextras.com>"
+url="https://zextras.com"
+section="mail"
+priority="optional"
+arch="all"
+license=("APACHE")
+
+depends=(
+  "carbonio-openjdk"
+)
+
+package() {
+  cd "${srcdir}/../../staging"
+  install -D "target/consul-client-${pkgver}.jar" \
+    "${pkgdir}/opt/zextras/lib/jars/consul-client-${pkgver}.jar"
+}
